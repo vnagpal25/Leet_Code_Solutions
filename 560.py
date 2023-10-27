@@ -1,5 +1,5 @@
 class Solution:
-    def subarraySum(self, nums: List[int], k: int) -> int:
+    def subarraySum(self, nums: list[int], k: int) -> int:
         # brute force approach
         # calculate sum for all subarrays and count how many 
         # this would be O(n^2) complexity as there are n(n+1)/2 subarrays in an array of length n
