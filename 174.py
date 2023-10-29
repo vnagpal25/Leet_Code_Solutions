@@ -1,5 +1,5 @@
 class Solution:
-    def calculateMinimumHP(self, dungeon: List[List[int]]) -> int:
+    def calculateMinimumHP(self, dungeon: list[list[int]]) -> int:
         m, n = len(dungeon), len(dungeon[0])
 
         # initialize need matrix
